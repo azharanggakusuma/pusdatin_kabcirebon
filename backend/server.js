@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Contoh route
 app.get('/', (req, res) => {
-  res.send('Hello from Express!');
+  res.send('Server Connected!');
 });
 
 // Jalankan server
